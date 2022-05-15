@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#100DaysOfCode Day 1</title>
+</head>
+
+<body>
+    <h1>Aprenderemos de HTML5</h1>
+    <p>Las etiquetas HTML son las que indican al navegador como debe interpretar el contenido recogido entre dichas
+        etiquetas. Estas etiquetas cuentan además con atributos que determinan como será el comportamiento específico
+        que tendrá la etiqueta.</p>
+    <h2>Etiquetas esenciales</h2>
+    <p>Para el SEO y la estructura de nuestra pagina web</p>
+    <h3>Estructura HTML</h3>
+    <ul>
+        <li><b>header:</b> <i>Tendra la cabecera de dicha pagina web</i></li>
+        <li><b>nav:</b> <i>Usadas para definir el contenido que será la sección de navegación de la web.</i></li>
+        <li><b>aside:</b> <i>Se encarga de contener datos extras, muy comun utilizarlas para paginas con publicidad.</i>
+        </li>
+        <li><b>main:</b> <i>Contenido de nuestra pagina web</i></li>
+        <li><b>h1,h2,h3,h4,h5,h6:</b> <i>se usan para explicar brevemente el contenido que irá a continuación.</i></li>
+        <li><b>article:</b> <i>Nos permite identificar un articulo en nuestro contenido web.</i></li>
+        <li><b>section:</b> <i>Nos permite insertar contenido generico en nuestro contenido web.</i></li>
+        <li><b>button:</b> <i>Nos permite insertar un boton en nuestro contenido web.</i></li>
+        <li><b>div:</b> <i>contenedor genérico.</i></li>
+        <li><b>footer:</b> <i>Es donde hubicamos nuestra información, como un contacto, nombre de la entidad, redes
+                sociales etc...</i></li>
+    </ul>
+    <h3>Estructura Texto</h3>
+    <ul>
+
+        <li><b>cite:</b> <i>Indica el título de una obra</i></li>
+        <li><b>small:</b> <i>Utilizada para dejar un comentario aparte, del tipo una nota de derechos de autoría, u
+                otros textos que no son esenciales para la comprensión del documento.</i></li>
+        <li><b>strong:</b> <i>Etiqueta para definir una palabra o conjunto de ellas como importantes.</i></li>
+        <li><b>a:</b> <i>Se utilizada para crear hiperenlaces en el documento HTML</i></li>
+        <li><b>p:</b> <i>Se utilizada para escribir párrafos de texto.</i></li>
+        <li><b>ol:</b> <i>Lista Ordenada.</i></li>
+        <li><b>ul:</b> <i>Lista Desordenada.</i></li>
+        <li><b>li:</b> <i>Elemento de la lista.</i></li>
+    </ul>
+    <h3>Estructura Contenido</h3>
+    <ul>
+        <li><b>img:</b> <i> Inserta una imagen en la página web</i></li>
+        <li><b>iframe:</b> <i>Es una etiqueta que sirve para anidar otro documento HTML dentro del documento
+                principal.</i></li>
+        <li><b>object:</b> <i>Utilizada llamar a un recurso externo de la web. Este recurso será tratado como una
+                imagen, o un recurso externo para ser procesado por un plugin</i></li>
+        <li><b>video:</b> <i>Se usa para reproducir video en la página web junto a sus archivos de audio.</i></li>
+        <li><b>audio:</b> <i>Usada para cargar en una web un archivo de audio o stream de audio.</i></li>
+        <li><b>svg:</b> <i>Se usa para llamar a una imagen vectorizada.</i></li>
+    </ul>
+
+    <hr>
+    <main>
+        <h2>Tablas en HTML</h2>
+        <p>Con la ayuda de CSS Podemos darle estilos, como bordes, color de fondo al encabezado etc...</p>
+        <table>
+            <thead>
+                <tr>
+                    <td>Columna 1</td>
+                    <td>Columna 2</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fila 1</td>
+                    <td>Fila 2</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Indicador total</td>
+                </tr>
+            </tfoot>
+        </table>
+        <h2>Imagenes en HTML</h2>
+        <p>Podemos agregar imagenes con diferentes tipos de calidad, los mas recomendable es utilizar JPG, PNG. nos
+            ayudamos con la <b>img</b></p>
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/a4/9b/77/legacy-hotel-at-img-academy.jpg" alt="">
+        <h2>Videos en HTML</h2>
+        <p>Nos permite insertar un video y poder estilizarlos en sus distintas propiedades, a la ves que con los
+            atributos de la etiqueta podemos realizar distintas funcionalidades.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MI8F6ynoeFI" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <p><i>Nota: para no descargar un video, se puede embeber uno desde youtube sin ningun problema con la etiqueta
+                <b>iframe</b></i></p>
+        <hr>
+        <h1>Modelo de Cajas</h1>
+        <p>Una de los elementos mas importantes a la hora de desarrollar una pagina web, tenemos que entender lo que es
+            el modelo de caja (se refiere a como HTML modela los elementos #etiquetas); con esto en mente podemos hacer
+            manipulación del <strong>DOM</strong> (es una interfaz de programación para los documentos HTML y XML.
+            Facilita una
+            representación estructurada del documento y define de qué manera los programas pueden acceder, al fin de
+            modificar, tanto su estructura, estilo y contenido).</p>
+        <h2>Tenemos 3 propiedades importantes</h2>
+        <ol>
+            <li>Bordes (Border)</li>
+            <li>Margenes (Margin)</li>
+            <li>Espacio Interno (padding)</li>
+            <li>Contenido (Content)</li>
+        </ol>
+        <p><b><i>Modelo Caja</i></b></p>
+        <img src="https://lenguajecss.com/css/modelo-de-cajas/que-es/modelo-de-cajas.png" alt="Modelo Caja CSS">
+        <p>Basandonos en este modelo, podemos ayudarnos con los estilos de CSS para ir moldeando una caja y su
+            contenido, cabe afirmar que en ocaciones no tenemos una etiqueta para un contenido en especifico por esto
+            HTML nos proporciona una etiqueta especial, es la etiqueta mas utilizada, nos sirve para seccionar
+            contenidos en los modelos de caja, esta etiqueta es <b>#div</b></p>
+
+        <h2>Formularios HTML</h2>
+        <p>Los formularios son la parte mas esencial a la hora de recopilar información. por medio de un boton podemos hacer el envio de esta información a una base de datos, o queremos manipularla</p>
+            <form action="">
+                <label for="">Texto</label>
+                <input type="text" placeholder="input"><br>
+                <label for="">Direccion url</label>
+                <input type="url" placeholder="url.com"><br>
+                <label for="">numeros</label>
+                <input type="number" placeholder="number"><br>
+                <label for="">email</label>
+                <input type="email" placeholder="number"><br>
+                <label for="">Fecha</label>
+                <input type="date"><br>
+                <label for="">Fecha y Hora</label>
+                <label for="">datetime-local</label>
+                <input type="datetime-local"><br>
+                <label for="">Mes y año</label>
+                <label for="">month</label>
+                <input type="month"><br>
+                <label for="">Semana y Año</label>
+                <input type="week"><br>
+                <label for="">Checkbox</label><br>
+                <input type="checkbox"><br>
+                <label for="">Radio</label>
+                <input type="radio"><br>
+                <label for="">Rango</label>
+                <input type="range"><br>
+                <label for="">Colores</label>
+                <input type="color"><br>
+                <label for="">Buscador</label>
+                <input type="search" placeholder="search"><br>
+                <label for="">selector</label>
+                <select name="" id="">
+                    <option value="">1</option>
+                </select><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="text area"></textarea><br>
+                <button>Enviar</button>
+                <input type="reset">
+                <input type="file">
+            </form>
+    </main>
+    <footer>
+        <blockquote>
+            <p><i>Desarrollador @DalexFS</i> 2022</p>
+        </blockquote>
+    </footer>
+
+</body>
+
+</html>
